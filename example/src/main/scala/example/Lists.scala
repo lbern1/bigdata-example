@@ -23,21 +23,30 @@ object Lists {
    * @param xs A list of natural numbers
    * @return The sum of all elements in `xs`
    */
-    def sum(xs: List[Int]): Int = 0
-  
+	  //def sum(xs: List[Int]): Int = 0
+   def sum(xs: List[Int]): Int = {
+    
+   if(xs.isEmpty){
+      throw new java.util.NoSuchElementException()
+   }
+   if (xs.tail.isEmpty)  xs.head else xs.head + sum(xs.tail);
+  }
+   
   /**
-   * This method returns the largest element in a list of integers. If the
-   * list `xs` is empty it throws a `java.util.NoSuchElementException`.
-   *
-   * You can use the same methods of the class `List` as mentioned above.
-   *
-   * ''Hint:'' Again, think of a recursive solution instead of using looping
-   * constructs. You might need to define an auxiliary method.
-   *
-   * @param xs A list of natural numbers
-   * @return The largest element in `xs`
-   * @throws java.util.NoSuchElementException if `xs` is an empty list
-   */
+  * This method returns the largest element in a list of integers. If the
+  * list `xs` is empty it throws a `java.util.NoSuchElementException`.
+  *
+  * You can use the same methods of the class `List` as mentioned above.
+  *
+  * ''Hint:'' Again, think of a recursive solution instead of using looping
+  * constructs. You might need to define an auxiliary method.
+  *
+  * @param xs A list of natural numbers
+  * @return The largest element in `xs`
+  * @throws java.util.NoSuchElementException if `xs` is an empty list
+  */
+    
+  
     // def max(xs: List[Int]): Int = 0  
     def max(xs: List[Int]): Int = {
     if(xs.isEmpty){

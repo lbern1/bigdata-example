@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/lbern/workspace/example/}root...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/lbern/git/example/example/}root...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@284a14e5[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52d2c133[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
@@ -17,27 +17,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.11;2.2.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.4 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.11;2.2.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.2.4 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.scalatest\scalatest_2.11\2.2.4\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalatest#scalatest_2.11;2.2.4[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.scalatest\scalatest_2.11\2.2.4\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.scalatest#scalatest_2.11;2.2.4[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.scalatest#scalatest_2.11;2.2.4[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scalatest#scalatest_2.11;2.2.4[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom (2.2.4)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.pom(pom.original) (102ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.scalatest\scalatest_2.11\2.2.4\bundles\scalatest_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.scalatest\scalatest_2.11\2.2.4\bundles\scalatest_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.11;2.2.4 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.4[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.11;2.2.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
@@ -47,27 +28,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.scala-lang\scala-reflect\2.11.2\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-reflect;2.11.2[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.scala-lang\scala-reflect\2.11.2\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.scala-lang#scala-reflect;2.11.2[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.scala-lang#scala-reflect;2.11.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-reflect;2.11.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom (2.11.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.2!scala-reflect.pom(pom.original) (79ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.scala-lang\scala-reflect\2.11.2\jars\scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.scala-lang\scala-reflect\2.11.2\jars\scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-reflect;2.11.2[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.4->org.scala-lang#scala-reflect;2.11.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.2->org.scala-lang#scala-library;2.11.2 [compile->master(compile)][0m
@@ -103,9 +65,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT->org.apache.spark#spark-core_2.11;2.1.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.11;2.1.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39704342[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47197c28[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-core_2.11;2.1.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@39704342[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@47197c28[0m
 [0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.spark\spark-core_2.11\2.1.0\ivys\ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-core_2.11;2.1.0[0m
 [0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.spark\spark-core_2.11\2.1.0\ivys\ivy.xml[0m
@@ -119,7 +81,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-core_2.11;2.1.0!spark-core_2.11.pom(pom.original) (145ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-core_2.11;2.1.0!spark-core_2.11.pom(pom.original) (154ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.1.0 {}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.0 ...[0m
@@ -137,7 +99,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.1.0/spark-parent_2.11-2.1.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.1.0/spark-parent_2.11-2.1.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.11/2.1.0/spark-parent_2.11-2.1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-parent_2.11;2.1.0!spark-parent_2.11.pom(pom.original) (210ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-parent_2.11;2.1.0!spark-parent_2.11.pom(pom.original) (166ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache#apache;14 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;14 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;14[0m
@@ -1999,7 +1961,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.1.0/spark-launcher_2.11-2.1.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.1.0/spark-launcher_2.11-2.1.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.1.0/spark-launcher_2.11-2.1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-launcher_2.11;2.1.0!spark-launcher_2.11.pom(pom.original) (201ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-launcher_2.11;2.1.0!spark-launcher_2.11.pom(pom.original) (205ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.1.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.1.0[0m
@@ -2023,7 +1985,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.1.0/spark-tags_2.11-2.1.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.1.0/spark-tags_2.11-2.1.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.1.0/spark-tags_2.11-2.1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-tags_2.11;2.1.0!spark-tags_2.11.pom(pom.original) (99ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-tags_2.11;2.1.0!spark-tags_2.11.pom(pom.original) (78ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.1.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.1.0[0m
@@ -2031,7 +1993,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-launcher_2.11;2.1.0->org.apache.spark#spark-tags_2.11;2.1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-tags_2.11;2.1.0->org.scalatest#scalatest_2.11;2.2.6 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.11;2.2.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@545fa36d[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6768d4e9[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.6[0m
 [0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.11;2.2.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-tags_2.11;2.1.0->org.scalatest#scalatest_2.11;2.2.6 [compile->compile(*)][0m
@@ -2042,27 +2004,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.scala-lang\scala-reflect\2.11.7\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-reflect;2.11.7[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.scala-lang\scala-reflect\2.11.7\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.scala-lang#scala-reflect;2.11.7[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.scala-lang#scala-reflect;2.11.7[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-reflect;2.11.7[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom (2.11.7)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.pom(pom.original) (100ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.scala-lang\scala-reflect\2.11.7\jars\scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.scala-lang\scala-reflect\2.11.7\jars\scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.7 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-reflect;2.11.7[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.11;2.2.6->org.scala-lang#scala-reflect;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
@@ -2129,7 +2072,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.1.0/spark-network-common_2.11-2.1.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.1.0/spark-network-common_2.11-2.1.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.1.0/spark-network-common_2.11-2.1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.11;2.1.0!spark-network-common_2.11.pom(pom.original) (182ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.11;2.1.0!spark-network-common_2.11.pom(pom.original) (122ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.1.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.1.0[0m
@@ -2226,7 +2169,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.1.0/spark-network-shuffle_2.11-2.1.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.1.0/spark-network-shuffle_2.11-2.1.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.1.0/spark-network-shuffle_2.11-2.1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.11;2.1.0!spark-network-shuffle_2.11.pom(pom.original) (138ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.11;2.1.0!spark-network-shuffle_2.11.pom(pom.original) (101ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.1.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.1.0[0m
@@ -2277,7 +2220,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.1.0/spark-unsafe_2.11-2.1.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.1.0/spark-unsafe_2.11-2.1.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.1.0/spark-unsafe_2.11-2.1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-unsafe_2.11;2.1.0!spark-unsafe_2.11.pom(pom.original) (69ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-unsafe_2.11;2.1.0!spark-unsafe_2.11.pom(pom.original) (147ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.1.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.1.0[0m
@@ -3192,41 +3135,18 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sql_2.11;2.1.0!spark-sql_2.11.pom(pom.original) (99ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sql_2.11;2.1.0!spark-sql_2.11.pom(pom.original) (132ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.1.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.1.0[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.spark\spark-sql_2.11\2.1.0\jars\spark-sql_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.spark\spark-sql_2.11\2.1.0\jars\spark-sql_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar[0m
 [0m[[0mdebug[0m] [0m	found org.apache.spark#spark-sql_2.11;2.1.0 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT->org.apache.spark#spark-sql_2.11;2.1.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT->org.apache.spark#spark-sql_2.11;2.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.11;2.1.0->com.univocity#univocity-parsers;2.2.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.univocity#univocity-parsers;2.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.univocity#univocity-parsers;2.2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving com.univocity#univocity-parsers;2.2.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.univocity#univocity-parsers;2.2.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\com.univocity\univocity-parsers\2.2.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.univocity#univocity-parsers;2.2.1[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\com.univocity\univocity-parsers\2.2.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for com.univocity#univocity-parsers;2.2.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for com.univocity#univocity-parsers;2.2.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.univocity#univocity-parsers;2.2.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.pom (2.2.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.univocity#univocity-parsers;2.2.1!univocity-parsers.pom(pom.original) (115ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\com.univocity\univocity-parsers\2.2.1\jars\univocity-parsers.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\com.univocity\univocity-parsers\2.2.1\jars\univocity-parsers.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.jar[0m
-[0m[[0mdebug[0m] [0m	found com.univocity#univocity-parsers;2.2.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.univocity#univocity-parsers;2.2.1[0m
+[0m[[0mdebug[0m] [0m	found com.univocity#univocity-parsers;2.2.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.11;2.1.0->com.univocity#univocity-parsers;2.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.11;2.1.0->com.univocity#univocity-parsers;2.2.1 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.11;2.1.0->com.univocity#univocity-parsers;2.2.1 [compile->compile][0m
@@ -3248,14 +3168,10 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.1.0/spark-sketch_2.11-2.1.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.1.0/spark-sketch_2.11-2.1.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.1.0/spark-sketch_2.11-2.1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sketch_2.11;2.1.0!spark-sketch_2.11.pom(pom.original) (85ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sketch_2.11;2.1.0!spark-sketch_2.11.pom(pom.original) (116ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.1.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.1.0[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.spark\spark-sketch_2.11\2.1.0\jars\spark-sketch_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.spark\spark-sketch_2.11\2.1.0\jars\spark-sketch_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/spark/spark-sketch_2.11/2.1.0/spark-sketch_2.11-2.1.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.1.0/spark-sketch_2.11-2.1.0.jar[0m
 [0m[[0mdebug[0m] [0m	found org.apache.spark#spark-sketch_2.11;2.1.0 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.11;2.1.0->org.apache.spark#spark-sketch_2.11;2.1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sketch_2.11;2.1.0->org.apache.spark#spark-tags_2.11;2.1.0 [compile->master(compile)][0m
@@ -3274,9 +3190,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.11;2.1.0->org.apache.spark#spark-core_2.11;2.1.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.11;2.1.0->org.apache.spark#spark-catalyst_2.11;2.1.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-catalyst_2.11;2.1.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1218841b[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70328320[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-catalyst_2.11;2.1.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@1218841b[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@70328320[0m
 [0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.spark\spark-catalyst_2.11\2.1.0\ivys\ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.spark#spark-catalyst_2.11;2.1.0[0m
 [0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.spark\spark-catalyst_2.11\2.1.0\ivys\ivy.xml[0m
@@ -3290,14 +3206,10 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.11;2.1.0!spark-catalyst_2.11.pom(pom.original) (84ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.11;2.1.0!spark-catalyst_2.11.pom(pom.original) (116ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.11;2.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.11;2.1.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.11;2.1.0[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.spark\spark-catalyst_2.11\2.1.0\jars\spark-catalyst_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.spark\spark-catalyst_2.11\2.1.0\jars\spark-catalyst_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar[0m
 [0m[[0mdebug[0m] [0m	found org.apache.spark#spark-catalyst_2.11;2.1.0 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.11;2.1.0->org.apache.spark#spark-catalyst_2.11;2.1.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-catalyst_2.11;2.1.0->org.scala-lang#scala-reflect;2.11.8 [compile->master(compile)][0m
@@ -3322,138 +3234,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-catalyst_2.11;2.1.0->org.codehaus.janino#janino;3.0.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.codehaus.janino#janino;3.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.janino#janino;3.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.codehaus.janino#janino;3.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.codehaus.janino#janino;3.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.codehaus.janino\janino\3.0.0\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.codehaus.janino#janino;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.codehaus.janino\janino\3.0.0\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.codehaus.janino#janino;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/codehaus/janino/janino/3.0.0/janino-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.codehaus.janino#janino;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.0/janino-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.codehaus.janino#janino;3.0.0[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.0/janino-3.0.0.pom (3.0.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.0/janino-3.0.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.0/janino-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.0/janino-3.0.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.0/janino-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.janino#janino;3.0.0!janino.pom(pom.original) (123ms)[0m
-[0m[[0minfo[0m] [0mResolving org.codehaus.janino#janino-parent;3.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.janino#janino-parent;3.0.0 {}[0m
-[0m[[0minfo[0m] [0mResolving org.codehaus.janino#janino-parent;3.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.codehaus.janino#janino-parent;3.0.0 {}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.codehaus.janino\janino-parent\3.0.0\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.codehaus.janino#janino-parent;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.codehaus.janino\janino-parent\3.0.0\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.codehaus.janino#janino-parent;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/codehaus/janino/janino-parent/3.0.0/janino-parent-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.codehaus.janino#janino-parent;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/janino/janino-parent/3.0.0/janino-parent-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.codehaus.janino#janino-parent;3.0.0[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/codehaus/janino/janino-parent/3.0.0/janino-parent-3.0.0.pom (3.0.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/janino/janino-parent/3.0.0/janino-parent-3.0.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/janino/janino-parent/3.0.0/janino-parent-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/janino/janino-parent/3.0.0/janino-parent-3.0.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/janino/janino-parent/3.0.0/janino-parent-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.janino#janino-parent;3.0.0!janino-parent.pom(pom.original) (116ms)[0m
-[0m[[0minfo[0m] [0mResolving org.codehaus#codehaus-parent;4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus#codehaus-parent;4 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.codehaus#codehaus-parent;4[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.codehaus.janino\janino-parent\3.0.0\jars\janino-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.codehaus.janino\janino-parent\3.0.0\jars\janino-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/codehaus/janino/janino-parent/3.0.0/janino-parent-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/janino/janino-parent/3.0.0/janino-parent-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/codehaus/janino/janino-parent/3.0.0/janino-parent-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/codehaus/janino/janino-parent/3.0.0/janino-parent-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/codehaus/janino/janino-parent/3.0.0/janino-parent-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.codehaus.janino\janino\3.0.0\jars\janino.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.codehaus.janino\janino\3.0.0\jars\janino.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/codehaus/janino/janino/3.0.0/janino-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.0/janino-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	found org.codehaus.janino#janino;3.0.0 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.codehaus.janino#janino;3.0.0[0m
+[0m[[0mdebug[0m] [0m	found org.codehaus.janino#janino;3.0.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-catalyst_2.11;2.1.0->org.codehaus.janino#janino;3.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.janino#janino;3.0.0->org.codehaus.janino#commons-compiler;3.0.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.codehaus.janino#commons-compiler;3.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.janino#commons-compiler;3.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.codehaus.janino#commons-compiler;3.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.codehaus.janino#commons-compiler;3.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.codehaus.janino\commons-compiler\3.0.0\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.codehaus.janino#commons-compiler;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.codehaus.janino\commons-compiler\3.0.0\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.codehaus.janino#commons-compiler;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.codehaus.janino#commons-compiler;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.codehaus.janino#commons-compiler;3.0.0[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.pom (3.0.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.janino#commons-compiler;3.0.0!commons-compiler.pom(pom.original) (84ms)[0m
-[0m[[0minfo[0m] [0mResolving org.codehaus.janino#janino-parent;3.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.janino#janino-parent;3.0.0 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.codehaus.janino#janino-parent;3.0.0[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.codehaus.janino\commons-compiler\3.0.0\jars\commons-compiler.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.codehaus.janino\commons-compiler\3.0.0\jars\commons-compiler.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	found org.codehaus.janino#commons-compiler;3.0.0 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.codehaus.janino#commons-compiler;3.0.0[0m
+[0m[[0mdebug[0m] [0m	found org.codehaus.janino#commons-compiler;3.0.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.janino#janino;3.0.0->org.codehaus.janino#commons-compiler;3.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-catalyst_2.11;2.1.0->org.codehaus.janino#commons-compiler;3.0.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-catalyst_2.11;2.1.0->org.codehaus.janino#commons-compiler;3.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-catalyst_2.11;2.1.0->org.antlr#antlr4-runtime;4.5.3 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.antlr#antlr4-runtime;4.5.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.antlr#antlr4-runtime;4.5.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.antlr#antlr4-runtime;4.5.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.antlr#antlr4-runtime;4.5.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.antlr\antlr4-runtime\4.5.3\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.antlr#antlr4-runtime;4.5.3[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.antlr\antlr4-runtime\4.5.3\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.antlr#antlr4-runtime;4.5.3[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.antlr#antlr4-runtime;4.5.3[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.antlr#antlr4-runtime;4.5.3[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.pom (4.5.3)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.antlr#antlr4-runtime;4.5.3!antlr4-runtime.pom(pom.original) (85ms)[0m
-[0m[[0minfo[0m] [0mResolving org.antlr#antlr4-master;4.5.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.antlr#antlr4-master;4.5.3 {}[0m
-[0m[[0minfo[0m] [0mResolving org.antlr#antlr4-master;4.5.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.antlr#antlr4-master;4.5.3 {}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.antlr\antlr4-master\4.5.3\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.antlr#antlr4-master;4.5.3[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.antlr\antlr4-master\4.5.3\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.antlr#antlr4-master;4.5.3[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/antlr/antlr4-master/4.5.3/antlr4-master-4.5.3.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.antlr#antlr4-master;4.5.3[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/antlr/antlr4-master/4.5.3/antlr4-master-4.5.3.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.antlr#antlr4-master;4.5.3[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/antlr/antlr4-master/4.5.3/antlr4-master-4.5.3.pom (4.5.3)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/antlr/antlr4-master/4.5.3/antlr4-master-4.5.3.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/antlr/antlr4-master/4.5.3/antlr4-master-4.5.3.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/antlr/antlr4-master/4.5.3/antlr4-master-4.5.3.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/antlr/antlr4-master/4.5.3/antlr4-master-4.5.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.antlr#antlr4-master;4.5.3!antlr4-master.pom(pom.original) (100ms)[0m
-[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;9 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.antlr\antlr4-master\4.5.3\jars\antlr4-master.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.antlr\antlr4-master\4.5.3\jars\antlr4-master.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/antlr/antlr4-master/4.5.3/antlr4-master-4.5.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/antlr/antlr4-master/4.5.3/antlr4-master-4.5.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/antlr/antlr4-master/4.5.3/antlr4-master-4.5.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/antlr/antlr4-master/4.5.3/antlr4-master-4.5.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/antlr/antlr4-master/4.5.3/antlr4-master-4.5.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.antlr\antlr4-runtime\4.5.3\jars\antlr4-runtime.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.antlr\antlr4-runtime\4.5.3\jars\antlr4-runtime.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.jar[0m
-[0m[[0mdebug[0m] [0m	found org.antlr#antlr4-runtime;4.5.3 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.antlr#antlr4-runtime;4.5.3[0m
+[0m[[0mdebug[0m] [0m	found org.antlr#antlr4-runtime;4.5.3 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-catalyst_2.11;2.1.0->org.antlr#antlr4-runtime;4.5.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-catalyst_2.11;2.1.0->commons-codec#commons-codec;1.10 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.10 ...[0m
@@ -3492,111 +3288,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.11;2.1.0->org.apache.parquet#parquet-column;1.8.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-column;1.8.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.parquet#parquet-column;1.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-column;1.8.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.parquet#parquet-column;1.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.parquet\parquet-column\1.8.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.parquet#parquet-column;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.parquet\parquet-column\1.8.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.apache.parquet#parquet-column;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.apache.parquet#parquet-column;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.parquet#parquet-column;1.8.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.pom (1.8.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-column;1.8.1!parquet-column.pom(pom.original) (100ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet;1.8.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.parquet#parquet;1.8.1 {}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet;1.8.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.parquet#parquet;1.8.1 {}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.parquet\parquet\1.8.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.parquet#parquet;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.parquet\parquet\1.8.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.apache.parquet#parquet;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/parquet/parquet/1.8.1/parquet-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.apache.parquet#parquet;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet/1.8.1/parquet-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.parquet#parquet;1.8.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/parquet/parquet/1.8.1/parquet-1.8.1.pom (1.8.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet/1.8.1/parquet-1.8.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet/1.8.1/parquet-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet/1.8.1/parquet-1.8.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet/1.8.1/parquet-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet;1.8.1!parquet.pom(pom.original) (78ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;16 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;16 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;16[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.parquet\parquet\1.8.1\jars\parquet.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.parquet\parquet\1.8.1\jars\parquet.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/parquet/parquet/1.8.1/parquet-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet/1.8.1/parquet-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/parquet/parquet/1.8.1/parquet-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/apache/parquet/parquet/1.8.1/parquet-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/apache/parquet/parquet/1.8.1/parquet-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.parquet\parquet-column\1.8.1\jars\parquet-column.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.parquet\parquet-column\1.8.1\jars\parquet-column.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.parquet#parquet-column;1.8.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.parquet#parquet-column;1.8.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.parquet#parquet-column;1.8.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.11;2.1.0->org.apache.parquet#parquet-column;1.8.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.parquet#parquet-column;1.8.1->org.apache.parquet#parquet-common;1.8.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-common;1.8.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.parquet#parquet-common;1.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-common;1.8.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.parquet#parquet-common;1.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.parquet\parquet-common\1.8.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.parquet#parquet-common;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.parquet\parquet-common\1.8.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.apache.parquet#parquet-common;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.apache.parquet#parquet-common;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.parquet#parquet-common;1.8.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.pom (1.8.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-common;1.8.1!parquet-common.pom(pom.original) (135ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet;1.8.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.parquet#parquet;1.8.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.parquet#parquet;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.parquet\parquet-common\1.8.1\jars\parquet-common.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.parquet\parquet-common\1.8.1\jars\parquet-common.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.parquet#parquet-common;1.8.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.parquet#parquet-common;1.8.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.parquet#parquet-common;1.8.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.parquet#parquet-column;1.8.1->org.apache.parquet#parquet-common;1.8.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.parquet#parquet-column;1.8.1->org.apache.parquet#parquet-encoding;1.8.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-encoding;1.8.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cd42874[0m
-[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-encoding;1.8.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@1cd42874[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.parquet\parquet-encoding\1.8.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.parquet#parquet-encoding;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.parquet\parquet-encoding\1.8.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.apache.parquet#parquet-encoding;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.apache.parquet#parquet-encoding;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.parquet#parquet-encoding;1.8.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.pom (1.8.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-encoding;1.8.1!parquet-encoding.pom(pom.original) (116ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet;1.8.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.parquet#parquet;1.8.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.parquet#parquet;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.parquet\parquet-encoding\1.8.1\jars\parquet-encoding.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.parquet\parquet-encoding\1.8.1\jars\parquet-encoding.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.parquet#parquet-encoding;1.8.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.parquet#parquet-encoding;1.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)], test=[runtime(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.parquet#parquet-encoding;1.8.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.parquet#parquet-encoding;1.8.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.parquet#parquet-column;1.8.1->org.apache.parquet#parquet-encoding;1.8.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.parquet#parquet-encoding;1.8.1->org.apache.parquet#parquet-common;1.8.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.parquet#parquet-encoding;1.8.1->org.apache.parquet#parquet-common;1.8.1 [compile->compile(*)][0m
@@ -3625,88 +3330,22 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.11;2.1.0->org.apache.parquet#parquet-hadoop;1.8.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-hadoop;1.8.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.parquet#parquet-hadoop;1.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-hadoop;1.8.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.parquet#parquet-hadoop;1.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.parquet\parquet-hadoop\1.8.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.parquet#parquet-hadoop;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.parquet\parquet-hadoop\1.8.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.apache.parquet#parquet-hadoop;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.apache.parquet#parquet-hadoop;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.parquet#parquet-hadoop;1.8.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.pom (1.8.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-hadoop;1.8.1!parquet-hadoop.pom(pom.original) (116ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet;1.8.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.parquet#parquet;1.8.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.parquet#parquet;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.parquet\parquet-hadoop\1.8.1\jars\parquet-hadoop.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.parquet\parquet-hadoop\1.8.1\jars\parquet-hadoop.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.parquet#parquet-hadoop;1.8.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.parquet#parquet-hadoop;1.8.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.parquet#parquet-hadoop;1.8.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-sql_2.11;2.1.0->org.apache.parquet#parquet-hadoop;1.8.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.parquet#parquet-hadoop;1.8.1->org.apache.parquet#parquet-column;1.8.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.parquet#parquet-hadoop;1.8.1->org.apache.parquet#parquet-column;1.8.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.parquet#parquet-hadoop;1.8.1->org.apache.parquet#parquet-format;2.3.0-incubating [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-format;2.3.0-incubating ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.parquet#parquet-format;2.3.0-incubating {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-format;2.3.0-incubating ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.parquet#parquet-format;2.3.0-incubating {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.parquet\parquet-format\2.3.0-incubating\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.parquet#parquet-format;2.3.0-incubating[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.parquet\parquet-format\2.3.0-incubating\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.apache.parquet#parquet-format;2.3.0-incubating[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.apache.parquet#parquet-format;2.3.0-incubating[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.parquet#parquet-format;2.3.0-incubating[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.pom (2.3.0-incubating)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-format;2.3.0-incubating!parquet-format.pom(pom.original) (116ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache#apache;16 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;16 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;16[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.parquet\parquet-format\2.3.0-incubating\jars\parquet-format.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.parquet\parquet-format\2.3.0-incubating\jars\parquet-format.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.parquet#parquet-format;2.3.0-incubating in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.parquet#parquet-format;2.3.0-incubating[0m
+[0m[[0mdebug[0m] [0m	found org.apache.parquet#parquet-format;2.3.0-incubating in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.parquet#parquet-hadoop;1.8.1->org.apache.parquet#parquet-format;2.3.0-incubating [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.parquet#parquet-hadoop;1.8.1->org.apache.parquet#parquet-jackson;1.8.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-jackson;1.8.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.parquet#parquet-jackson;1.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet-jackson;1.8.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.apache.parquet#parquet-jackson;1.8.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.parquet\parquet-jackson\1.8.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.parquet#parquet-jackson;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.parquet\parquet-jackson\1.8.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.apache.parquet#parquet-jackson;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.apache.parquet#parquet-jackson;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.apache.parquet#parquet-jackson;1.8.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.pom (1.8.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-jackson;1.8.1!parquet-jackson.pom(pom.original) (100ms)[0m
-[0m[[0minfo[0m] [0mResolving org.apache.parquet#parquet;1.8.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.parquet#parquet;1.8.1 {}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.parquet#parquet;1.8.1[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.apache.parquet\parquet-jackson\1.8.1\jars\parquet-jackson.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.apache.parquet\parquet-jackson\1.8.1\jars\parquet-jackson.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.apache.parquet#parquet-jackson;1.8.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.parquet#parquet-jackson;1.8.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.parquet#parquet-jackson;1.8.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.parquet#parquet-hadoop;1.8.1->org.apache.parquet#parquet-jackson;1.8.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.parquet#parquet-hadoop;1.8.1->org.codehaus.jackson#jackson-mapper-asl;1.9.11 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.parquet#parquet-hadoop;1.8.1->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->master(compile)][0m
@@ -9102,78 +8741,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving junit#junit;4.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: junit#junit;4.10 {test=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving junit#junit;4.10 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: junit#junit;4.10 {test=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\junit\junit\4.10\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for junit#junit;4.10[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\junit\junit\4.10\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for junit#junit;4.10[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/junit/junit/4.10/junit-4.10.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for junit#junit;4.10[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for junit#junit;4.10[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom (4.10)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] junit#junit;4.10!junit.pom(pom.original) (137ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\junit\junit\4.10\jars\junit.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\junit\junit\4.10\jars\junit.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/junit/junit/4.10/junit-4.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar[0m
-[0m[[0mdebug[0m] [0m	found junit#junit;4.10 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0m	found junit#junit;4.10 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.hamcrest\hamcrest-core\1.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.hamcrest#hamcrest-core;1.1[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.hamcrest\hamcrest-core\1.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.hamcrest#hamcrest-core;1.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.hamcrest#hamcrest-core;1.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.hamcrest#hamcrest-core;1.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom (1.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.1!hamcrest-core.pom(pom.original) (80ms)[0m
-[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-parent;1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.1 {}[0m
-[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-parent;1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.1 {}[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.hamcrest\hamcrest-parent\1.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.hamcrest#hamcrest-parent;1.1[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.hamcrest\hamcrest-parent\1.1\ivys\ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local-preloaded-ivy: no ivy file found for org.hamcrest#hamcrest-parent;1.1[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	local-preloaded: no ivy file found for org.hamcrest#hamcrest-parent;1.1[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.hamcrest#hamcrest-parent;1.1[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom (1.1)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.hamcrest#hamcrest-parent;1.1!hamcrest-parent.pom(pom.original) (83ms)[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.hamcrest\hamcrest-parent\1.1\jars\hamcrest-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.hamcrest\hamcrest-parent\1.1\jars\hamcrest-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/releases/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://oss.sonatype.org/content/repositories/releases/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.ivy2\local\org.hamcrest\hamcrest-core\1.1\jars\hamcrest-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried C:\Users\lbern\.sbt\preloaded\org.hamcrest\hamcrest-core\1.1\jars\hamcrest-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried file:/C:/Users/lbern/.sbt/preloaded/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.hamcrest#hamcrest-core;1.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m	found org.hamcrest#hamcrest-core;1.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile][0m
@@ -17292,12 +16868,7 @@
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-core_2.11;2.1.0!spark-core_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sql_2.11;2.1.0!spark-sql_2.11.jar (1285ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-sql_2.11;2.1.0!spark-sql_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.avro#avro-mapred;1.7.7!avro-mapred.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#chill_2.11;0.8.0!chill_2.11.jar[0m
@@ -17414,109 +16985,39 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.glassfish.jersey.media#jersey-media-jaxb;2.22.2!jersey-media-jaxb.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.validation#validation-api;1.1.0.Final!validation-api.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-paranamer;2.6.5!jackson-module-paranamer.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.univocity#univocity-parsers;2.2.1!univocity-parsers.jar (143ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.1.0/spark-sketch_2.11-2.1.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.1.0/spark-sketch_2.11-2.1.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.1.0/spark-sketch_2.11-2.1.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.1.0/spark-sketch_2.11-2.1.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.1.0/spark-sketch_2.11-2.1.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sketch_2.11;2.1.0!spark-sketch_2.11.jar (240ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.11;2.1.0!spark-catalyst_2.11.jar (1233ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-column;1.8.1!parquet-column.jar (299ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-hadoop;1.8.1!parquet-hadoop.jar (147ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.univocity#univocity-parsers;2.2.1!univocity-parsers.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-sketch_2.11;2.1.0!spark-sketch_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-catalyst_2.11;2.1.0!spark-catalyst_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.parquet#parquet-column;1.8.1!parquet-column.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.parquet#parquet-hadoop;1.8.1!parquet-hadoop.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.0/janino-3.0.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.0/janino-3.0.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.0/janino-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.0/janino-3.0.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.0/janino-3.0.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.janino#janino;3.0.0!janino.jar (223ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.janino#commons-compiler;3.0.0!commons-compiler.jar (278ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.antlr#antlr4-runtime;4.5.3!antlr4-runtime.jar (154ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.janino#janino;3.0.0!janino.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.janino#commons-compiler;3.0.0!commons-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.antlr#antlr4-runtime;4.5.3!antlr4-runtime.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-common;1.8.1!parquet-common.jar (316ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-encoding;1.8.1!parquet-encoding.jar (169ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-format;2.3.0-incubating!parquet-format.jar (162ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-jackson;1.8.1!parquet-jackson.jar (270ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] junit#junit;4.10!junit.jar (199ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar (116ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.parquet#parquet-common;1.8.1!parquet-common.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.parquet#parquet-encoding;1.8.1!parquet-encoding.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.parquet#parquet-format;2.3.0-incubating!parquet-format.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.parquet#parquet-jackson;1.8.1!parquet-jackson.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 17029ms :: artifacts dl 5391ms[0m
-[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT compile produced in C:\Users\lbern\workspace\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT runtime produced in C:\Users\lbern\workspace\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT test produced in C:\Users\lbern\workspace\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT provided produced in C:\Users\lbern\workspace\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT optional produced in C:\Users\lbern\workspace\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT compile-internal produced in C:\Users\lbern\workspace\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT runtime-internal produced in C:\Users\lbern\workspace\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT test-internal produced in C:\Users\lbern\workspace\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT plugin produced in C:\Users\lbern\workspace\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT sources produced in C:\Users\lbern\workspace\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT docs produced in C:\Users\lbern\workspace\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT pom produced in C:\Users\lbern\workspace\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT scala-tool produced in C:\Users\lbern\workspace\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (17029ms resolve - 5391ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 15222ms :: artifacts dl 107ms[0m
+[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT compile produced in C:\Users\lbern\git\example\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT runtime produced in C:\Users\lbern\git\example\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT test produced in C:\Users\lbern\git\example\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT provided produced in C:\Users\lbern\git\example\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT optional produced in C:\Users\lbern\git\example\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT compile-internal produced in C:\Users\lbern\git\example\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT runtime-internal produced in C:\Users\lbern\git\example\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT test-internal produced in C:\Users\lbern\git\example\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT plugin produced in C:\Users\lbern\git\example\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT sources produced in C:\Users\lbern\git\example\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT docs produced in C:\Users\lbern\git\example\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT pom produced in C:\Users\lbern\git\example\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for bigdata-example#bigdata-example_2.11;0.1-SNAPSHOT scala-tool produced in C:\Users\lbern\git\example\example\target\resolution-cache\reports\bigdata-example-bigdata-example_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (15222ms resolve - 107ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
