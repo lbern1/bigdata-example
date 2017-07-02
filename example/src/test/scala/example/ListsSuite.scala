@@ -35,7 +35,7 @@ import org.scalatest.junit.JUnitRunner
    *
    * The most common way to implement a test body is using the method `assert`
    * which tests that its argument evaluates to `true`. So one of the simplest
-   * successful tests is the following:
+   * successful tests is the following:  
    */
   test("one plus one is two")(assert(1 + 1 == 2))
 
